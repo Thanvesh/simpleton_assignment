@@ -459,3 +459,21 @@ body {
     width: 10px;
   }
 }
+
+@media (min-width: 1023px){
+  .nav-bar {
+
+    justify-content: space-around;
+
+  
+  }  
+  
+  .nav-item {
+    font-size: 22px;
+    font-family: " sans-serif";
+    letter-spacing: 2px;
+  
+  }
+
+
+}
