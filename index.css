@@ -32,7 +32,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 60px;
+  gap: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: 600;
@@ -458,22 +458,4 @@ body {
   .arrow{
     width: 10px;
   }
-}
-
-@media (min-width: 1023px){
-  .nav-bar {
-
-    justify-content: space-around;
-
-  
-  }  
-  
-  .nav-item {
-    font-size: 22px;
-    font-family: " sans-serif";
-    letter-spacing: 2px;
-  
-  }
-
-
 }
