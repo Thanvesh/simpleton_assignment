@@ -117,7 +117,7 @@ body {
   font-size: 18px;
 }
 .button{
-  background-color:#FF7171;
+  background-color:red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,7 +127,7 @@ body {
 .btn{
   letter-spacing: 0.9px;
   border: 0px solid;
-  background-color:#FF7171;
+  background-color:red;
   color: #ffffff;
   font-size: 15px;
   font-weight: 100;
@@ -459,3 +459,22 @@ body {
     width: 10px;
   }
 }
+
+
+@media screen and (min-width:900px) and (max-width:1200px){
+  .btn{
+    background-color: yellow;
+  }
+  .button{
+    background-color: yellow;
+  }
+}
+
+
+
+
+.item3:hover .image3{
+  transform: rotate(90deg);
+}
+
+
